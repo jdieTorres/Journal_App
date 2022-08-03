@@ -50,7 +50,7 @@ export const NoteView = () => {
 
     const onDelete = () => {
         dispatch( startDeletingNote() )
-        Swal.fire('Nota borrada', 'error');
+        Swal.fire('Nota borrada','', 'error');
     }
 
     return (
